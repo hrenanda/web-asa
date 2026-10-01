@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi sumber daya industri">
+  <defs>
+    <radialGradient id="glow3" cx="30%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#1B4B57"/>
+      <stop offset="100%" stop-color="#0E2A32"/>
+    </radialGradient>
+    <pattern id="grid3" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#F2F3EE" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#glow3)"/>
+  <rect width="800" height="600" fill="url(#grid3)"/>
+  <path d="M60 490 C 230 465, 300 250, 470 235 S 720 180, 770 80" fill="none" stroke="#E4572E" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="3 10" stroke-linecap="round"/>
+  <circle cx="60" cy="490" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="470" cy="235" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="770" cy="80" r="7" fill="#E4572E" fill-opacity="0.8"/>
+
+  <!-- pabrik -->
+  <g fill="none" stroke="#E4572E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M270 440 v -130 l 70 45 v -45 l 70 45 v -45 l 70 45 v 85 Z"/>
+    <path d="M270 310 l -8 -85 h 40 l 6 85"/>
+  </g>
+  <!-- asap -->
+  <g fill="none" stroke="#3E7C74" stroke-width="9" stroke-linecap="round">
+    <path d="M275 175 a 18 18 0 1 1 30 -12 a 16 16 0 1 1 26 10"/>
+  </g>
+  <!-- pelet -->
+  <g fill="#3E7C74">
+    <circle cx="560" cy="420" r="11"/>
+    <circle cx="590" cy="438" r="11"/>
+    <circle cx="555" cy="455" r="11"/>
+    <circle cx="588" cy="472" r="11"/>
+    <circle cx="620" cy="452" r="11"/>
+  </g>
+
+  <g stroke="#F2F3EE" stroke-opacity="0.35" stroke-width="2">
+    <path d="M76 96 v 24 M64 108 h 24"/>
+    <path d="M716 506 v 24 M704 518 h 24"/>
+  </g>
+</svg>

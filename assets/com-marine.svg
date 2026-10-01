@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi kelautan dan perikanan">
+  <defs>
+    <radialGradient id="glow" cx="30%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#1B4B57"/>
+      <stop offset="100%" stop-color="#0E2A32"/>
+    </radialGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#F2F3EE" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <path d="M60 470 C 220 440, 300 220, 470 210 S 720 150, 770 60" fill="none" stroke="#E4572E" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="3 10" stroke-linecap="round"/>
+  <circle cx="60" cy="470" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="470" cy="210" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="770" cy="60" r="7" fill="#E4572E" fill-opacity="0.8"/>
+
+  <!-- ikan -->
+  <g fill="none" stroke="#E4572E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 320 C 300 260, 420 250, 490 320 C 420 390, 300 380, 250 320 Z"/>
+    <path d="M490 320 L 560 265 L 545 320 L 560 375 Z"/>
+    <path d="M360 275 C 375 300, 375 340, 360 365"/>
+  </g>
+  <circle cx="315" cy="308" r="9" fill="#F2F3EE"/>
+
+  <!-- gelombang -->
+  <g fill="none" stroke="#3E7C74" stroke-width="9" stroke-linecap="round">
+    <path d="M200 430 q 35 -26 70 0 t 70 0 t 70 0 t 70 0 t 70 0"/>
+    <path d="M240 480 q 35 -26 70 0 t 70 0 t 70 0"/>
+  </g>
+
+  <g stroke="#F2F3EE" stroke-opacity="0.35" stroke-width="2">
+    <path d="M70 90 v 24 M58 102 h 24"/>
+    <path d="M720 510 v 24 M708 522 h 24"/>
+  </g>
+</svg>

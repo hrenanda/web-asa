@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustrasi pangan dan produk olahan">
+  <defs>
+    <radialGradient id="glow2" cx="30%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#1B4B57"/>
+      <stop offset="100%" stop-color="#0E2A32"/>
+    </radialGradient>
+    <pattern id="grid2" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#F2F3EE" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#glow2)"/>
+  <rect width="800" height="600" fill="url(#grid2)"/>
+  <path d="M50 480 C 210 455, 280 240, 450 225 S 730 170, 775 70" fill="none" stroke="#E4572E" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="3 10" stroke-linecap="round"/>
+  <circle cx="50" cy="480" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="450" cy="225" r="7" fill="#E4572E" fill-opacity="0.8"/>
+  <circle cx="775" cy="70" r="7" fill="#E4572E" fill-opacity="0.8"/>
+
+  <!-- kemasan makanan -->
+  <g fill="none" stroke="#E4572E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M290 300 h 180 l 22 60 h -224 Z"/>
+    <path d="M282 360 h 196 v 60 a 18 18 0 0 1 -18 18 h -160 a 18 18 0 0 1 -18 -18 Z"/>
+    <path d="M320 300 v -26 a 12 12 0 0 1 12 -12 h 96 a 12 12 0 0 1 12 12 v 26"/>
+  </g>
+  <!-- uap -->
+  <g fill="none" stroke="#3E7C74" stroke-width="9" stroke-linecap="round">
+    <path d="M345 225 c -14 -20, 14 -32, 0 -52"/>
+    <path d="M400 218 c -14 -20, 14 -32, 0 -52"/>
+    <path d="M455 225 c -14 -20, 14 -32, 0 -52"/>
+  </g>
+
+  <g stroke="#F2F3EE" stroke-opacity="0.35" stroke-width="2">
+    <path d="M80 500 v 24 M68 512 h 24"/>
+    <path d="M710 80 v 24 M698 92 h 24"/>
+  </g>
+</svg>
