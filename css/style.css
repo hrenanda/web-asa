@@ -142,16 +142,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.12; letter-spa
   gap: 0.75rem;
   text-decoration: none;
 }
-.brand-mark { display: inline-flex; align-items: center; }
-.brand-dot {
-  width: 10px; height: 10px; border-radius: 50%;
-  background: var(--signal);
-}
-.brand-dot.hollow { background: transparent; border: 2px solid var(--signal); width: 9px; height: 9px; }
-.brand-dash {
-  width: 20px; height: 0;
-  border-top: 2px dashed var(--signal);
-  margin-inline: 3px;
+.brand-logo {
+  height: 30px;
+  width: auto;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.25; }
 .brand-text strong {
